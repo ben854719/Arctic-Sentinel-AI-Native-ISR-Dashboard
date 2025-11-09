@@ -1,1 +1,4 @@
-# Arctic-Sentinel-AI-Native-ISR-Dashboard
+## Arctic Sentinel: AI Native ISR Dashboard
+
+## Objective:
+
