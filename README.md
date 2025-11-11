@@ -68,13 +68,73 @@ The application is a modular, AI-native ISR dashboard for autonomous Arctic thre
 - Matplotlib
 - Scikit-Learn
 
-## OpencV:
+## OpenCV:
 
 You need to install (!pip install opencv-python) so the opencv can run on Google Colab. This gives you access to the core cv2 module for image processing, video analysis, and computer vision tasks.
 
 ## RS256 Asymmetric Encryption Setup (JWT-style):
 
-- RS256 is commonly used with JWTs, but its core mechanism — signing with a private RSA key and verifying with a public key — can be applied to any data payload, including satellite image metadata or anomaly detection results.
+- RS256 is commonly used with JWTs, but its core mechanism — signing with a private RSA key and verifying with a public key — can be applied to any data payload, including    satellite image metadata or anomaly detection results.
+
+## LangGraph + LangChain Overview: Multi-Step Report Generation Flow:
+
+- This agentic flow uses LangGraph to orchestrate reasoning steps and LangChain to route tools, manage memory, and trigger external APIs.
+  
+- It processes incoming Arctic telemetry, detects environmental and infrastructure signals, and generates structured insight reports — all within a modular, explainable       framework.
+
+## Node:
+
+- Parse encrypted satellite and infrastructure telemetry.
+  
+- Route through LangChain tools (e.g., OpenCV anomaly detection, ML forecasting, terrain overlays).
+  
+- Trigger fallback messaging, triage logic, or stakeholder-facing summaries.
+  
+- Maintain stateful flow across environmental parsing, sentiment detection, and insight generation.
+
+## Signal Detection:
+
+- Signal detection in the application combines encrypted telemetry parsing, anomaly recognition, and strategic signal extraction across satellite and infrastructure feeds.
+
+- It operates within a modular, agentic framework that enables autonomous triage and insight generation.
+
+## Report Structuring:
+
+- Report structuring in the application transforms parsed telemetry and detected signals into modular, stakeholder-ready insight formats.
+
+- It leverages LangGraph for multi-step orchestration and LangChain for tool routing, memory, and external API integration — ensuring clarity, traceability, and strategic     relevance.
+
+## Fallback Logic:
+
+- The Fallback logic ensures resilience and continuity in Arctic Sentinel’s agentic flow when signal confidence drops, data gaps emerge, or environmental parsing fails.
+
+- It maintains operational integrity across triage, forecasting, and insight generation.
+
+##  Integration Notes:
+
+- The application integrates modular AI components through LangGraph and LangChain to enable autonomous signal parsing, anomaly detection, and strategic insight generation.   Each module is designed for interoperability, resilience, and explainability across defense, climate, and Indigenous resilience missions.
+
+- LangGraph orchestration of multi-step reasoning flows (e.g., signal detection → triage → insight generation).
+  
+- LangChain tools routing for OpenCV anomaly detection, ML forecasting, RS256-secured telemetry parsing, and Matplotlib 3D overlays.
+  
+- C++ and Python interoperability, enabling sentiment parsing and environmental signal extraction across encrypted feeds.
+  
+- Fallback logic for low-confidence signals or incomplete telemetry, maintaining continuity and modular recovery.
+  
+- Structured report output, formatted for stakeholder briefings, terrain overlays, and strategic dashboards.
+
+## Data Referral:
+
+- Data title:
+- Link:
+
+
+
+
+
+
+
 
 
 
