@@ -2,7 +2,7 @@
 
 ## Objective:
 
-The application is a modular, AI-native ISR dashboard for autonomous Arctic threat detection and strategic insight. It combines C++ sentiment and environmental parsing, RS256-encrypted telemetry, and OpenCV-powered anomaly detection across satellite and infrastructure data. Agentic AI modules orchestrate real-time threat triage and narrative overlays, while ML models forecast risks from Arctic telemetry. Matplotlib will create 3D visualization layer renders terrain and vulnerabilities. Early metrics show a 35% drop in false positives, 50% faster triage, and 80% comprehension in stakeholder briefings — making the application a scalable solution for defense, climate, and Indigenous resilience missions.
+The application is a modular, AI-native ISR dashboard for autonomous Arctic threat detection and strategic insight. It combines C++ sentiment and environmental parsing, RS256-encrypted telemetry, and OpenCV-powered anomaly detection across satellite and infrastructure data. Agentic AI modules orchestrate real-time threat triage and narrative overlays, while ML models forecast risks from Arctic telemetry. Matplotlib will create 3D visualization layer renders terrain and vulnerabilities. Early metrics show a 35% drop in false positives, 50% faster triage, and 80% comprehension in stakeholder briefings — making the application a scalable solution for defense and climate.
 
 ## Video of the project:
 
