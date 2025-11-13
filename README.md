@@ -46,7 +46,6 @@ The application is a modular, AI-native ISR dashboard for autonomous Arctic thre
 
 -	Python
 -	C++
--	Scikit-Learn
 -	Cryptography
 -	Numpy
 -	Matplotlib
