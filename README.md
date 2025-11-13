@@ -116,7 +116,7 @@ You need to install (!pip install opencv-python) so the opencv can run on Google
   
 - LangChain tools routing for OpenCV anomaly detection, ML forecasting, RS256-secured telemetry parsing, and Matplotlib 3D overlays.
   
-- C++ and Python interoperability, enabling sentiment parsing and environmental signal extraction across encrypted feeds.
+- C++ enables sentiment parsing and environmental signal extraction across encrypted feeds.
   
 - Fallback logic for low-confidence signals or incomplete telemetry, maintaining continuity and modular recovery.
   
