@@ -50,8 +50,6 @@ The application is a modular, AI-native ISR dashboard for autonomous Arctic thre
 -	Cryptography
 -	Numpy
 -	Matplotlib
--	Named Pipe
--	Seaborn
 -	OpenCV
 -	Agentic AI
 -	LangGraph
