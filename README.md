@@ -112,9 +112,9 @@ You need to install (!pip install opencv-python) so the opencv can run on Google
 
 - The application integrates modular AI components through LangGraph and LangChain to enable autonomous signal parsing, anomaly detection, and strategic insight generation.   Each module is designed for interoperability, resilience, and explainability across defense, climate, and Indigenous resilience missions.
 
-- LangGraph orchestration of multi-step reasoning flows (e.g., signal detection → triage → insight generation).
+- LangGraph orchestrates multi-step reasoning flows—such as signal detection, triage, and insight generation—while LangChain handles modular agent logic, tool routing, and    memory integration for scalable, context-aware execution
   
-- LangChain tools routing for OpenCV anomaly detection, ML forecasting, RS256-secured telemetry parsing, and Matplotlib 3D overlays.
+- This system integrates OpenCV-based anomaly detection, RS256-secured telemetry parsing, and machine learning–driven risk forecasting, all visualized through interactive     3D overlays in Matplotlib
   
 - C++ enables sentiment parsing and environmental signal extraction across encrypted feeds.
   
