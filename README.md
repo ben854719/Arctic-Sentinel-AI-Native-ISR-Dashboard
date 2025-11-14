@@ -80,7 +80,7 @@ You need to install (!pip install opencv-python) so the opencv can run on Google
 
 ## LangGraph + LangChain + LangSmith Overview: Multi-Step Report Generation Flow:
 
--This agentic workflow leverages LangGraph to orchestrate reasoning steps and LangChain to manage tools, memory, and API calls. It ingests Arctic telemetry, detects          environmental and infrastructure signals, and produces structured insight reports within a modular, explainable framework.
+- This agentic workflow leverages LangGraph to orchestrate reasoning steps and LangChain to manage tools, memory, and API calls. It ingests Arctic telemetry, detects          environmental and infrastructure signals, and produces structured insight reports within a modular, explainable framework.
 
 - LangSmith powers traceable multi-turn evaluations and agent behavior insights—enabling secure debugging, stakeholder transparency, and employer-facing polish across the     entire ISR flow.
   
