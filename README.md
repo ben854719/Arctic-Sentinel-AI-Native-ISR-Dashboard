@@ -133,7 +133,7 @@ You need to install (!pip install opencv-python) so the opencv can run on Google
 - Data title: NASA 
 - Link: https://svs.gsfc.nasa.gov/5583
 
-- Data Title: ArcGIS Landsta Imagery (Arctic)
+- Data Title: ArcGIS Landstat Imagery (Arctic)
 - Link: https://www.arcgis.com/home/item.html?id=6d8144399610426e8f57246e2607782d
 
 
