@@ -38,6 +38,10 @@ The application is a modular, AI-native ISR dashboard for autonomous Arctic thre
 
 - Renders Arctic terrain and vulnerability overlays for intuitive threat mapping and mission planning.
 
+## LangSmith:
+
+-LangSmith powers traceable, multi-turn evaluations and agent behavior insights in my Arctic Sentinel prototype—enabling secure debugging, stakeholder transparency, and      employer-facing polish across ISR workflows.
+
 ## Installation Requirements:
 
 - Ensure you have the following software and frameworks installed.
@@ -53,6 +57,7 @@ The application is a modular, AI-native ISR dashboard for autonomous Arctic thre
 -	Agentic AI
 -	LangGraph
 -	LangChain
+-	LangSmith
 -	JSON
 -	Gemini 2.5 flash
 -	MCP Server
@@ -73,12 +78,12 @@ You need to install (!pip install opencv-python) so the opencv can run on Google
 
 - RS256 is commonly used with JWTs, but its core mechanism — signing with a private RSA key and verifying with a public key — can be applied to any data payload, including    satellite image metadata or anomaly detection results.
 
-## LangGraph + LangChain Overview: Multi-Step Report Generation Flow:
+## LangGraph + LangChain + LangSmith Overview: Multi-Step Report Generation Flow:
 
-- This agentic flow uses LangGraph to orchestrate reasoning steps and LangChain to route tools, manage memory, and trigger external APIs.
+-This agentic workflow leverages LangGraph to orchestrate reasoning steps and LangChain to manage tools, memory, and API calls. It ingests Arctic telemetry, detects          environmental and infrastructure signals, and produces structured insight reports within a modular, explainable framework.
+
+- LangSmith powers traceable multi-turn evaluations and agent behavior insights—enabling secure debugging, stakeholder transparency, and employer-facing polish across the     entire ISR flow.
   
-- It processes incoming Arctic telemetry, detects environmental and infrastructure signals, and generates structured insight reports — all within a modular, explainable       framework.
-
 ## Node:
 
 - Parse encrypted satellite and infrastructure telemetry.
@@ -111,9 +116,11 @@ You need to install (!pip install opencv-python) so the opencv can run on Google
 
 - The application integrates modular AI components through LangGraph and LangChain to enable autonomous signal parsing, anomaly detection, and strategic insight generation.   Each module is designed for interoperability, resilience, and explainability across defense, climate, and Indigenous resilience missions.
 
-- LangGraph orchestrates multi-step reasoning flows—such as signal detection, triage, and insight generation—while LangChain handles modular agent logic, tool routing, and    memory integration for scalable, context-aware execution
+- LangGraph orchestrates multi-step reasoning flows—such as signal detection, triage, and insight generation—while LangChain handles modular agent logic, tool routing, and    memory integration for scalable, context-aware execution.
   
-- This system integrates OpenCV-based anomaly detection, RS256-secured telemetry parsing, and machine learning–driven risk forecasting, all visualized through interactive     3D overlays in Matplotlib
+- This system integrates OpenCV-based anomaly detection, RS256-secured telemetry parsing, and machine learning–driven risk forecasting, all visualized through interactive     3D overlays in Matplotlib.
+
+- LangSmith powers traceable, multi-turn evaluations and agent behavior insights in my Arctic Sentinel prototype—enabling secure debugging, stakeholder transparency, and      employer-facing polish across ISR workflows.
   
 - C++ enables sentiment parsing and environmental signal extraction across encrypted feeds.
   
