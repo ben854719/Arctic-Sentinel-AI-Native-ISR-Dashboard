@@ -6,6 +6,8 @@ The application is a modular, AI-native ISR dashboard for autonomous Arctic thre
 
 ## Video of the project:
 
+[YouTube](https://youtu.be/Lg9UIRN8OjI)
+
 ## Features:
 
 ## Core Intelligence Modules:
