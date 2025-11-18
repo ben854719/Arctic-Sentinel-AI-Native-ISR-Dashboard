@@ -70,8 +70,7 @@ The application is a modular, AI-native ISR dashboard for autonomous Arctic thre
 - Python
 - Numpy
 - Matplotlib
-- Scikit-Learn
-
+  
 ## OpenCV:
 
 You need to install (!pip install opencv-python) so the opencv can run on Google Colab. This gives you access to the core cv2 module for image processing, video analysis, and computer vision tasks.
